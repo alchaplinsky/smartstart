@@ -11,11 +11,11 @@ And then execute:
 
 Or install it yourself as:
 
-Use sass import instead of sprockets manifest =require instruction:
-
     $ gem install smartstart_rails
 
 ## Usage
+
+Use sass @import instead of sprockets manifest =require instruction:
 
     @import 'smartstart'
 
