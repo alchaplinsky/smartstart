@@ -1,8 +1,5 @@
 # SmartstartRails
 Sass OOCSS library
-Installation:
-
-    gem install smartstart_rails
 
 Add this line to your application's Gemfile:
 
@@ -14,11 +11,13 @@ And then execute:
 
 Or install it yourself as:
 
+Use sass import instead of sprockets manifest =require instruction:
+
     $ gem install smartstart_rails
 
 ## Usage
 
-@import 'smartstart'
+    @import 'smartstart'
 
 ## Contributing
 
