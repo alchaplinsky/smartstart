@@ -1,65 +1,62 @@
 body, input, button
-  font-family:  $base-font-family
-  font-size:    $base-font-size
-  line-height:  $base-line-height
-  color:        $text-color
-
+  font-family:  Arial, sans-serif
+  font-size:    13px
+  line-height:  18px
+  color: #333
 // LINKS
 // -----
 a 
-  color: $link-color
+  color: #1A3DC1
   text-decoration: none
   
 a:hover
-  color: $link-hover
+  color: darken(##1A3DC1, 5%)
   text-decoration: underline
 
 small 
-  font-size: $base-font-size - 2
-  color: $gray-light
+  font-size: 11px
+  color: #777
 
 // HEADINGS
 // --------
 h1, h2, h3, h4, h5, h6 
   font-weight: bold
-  color: $gray-dark
   text-rendering: optimizelegibility // Fix the character spacing for headings
   small 
     font-weight: normal
-    color: $gray-light
 
 h1 
-  font-size: $h1-size 
-  line-height: $base-line-height * 2
+  font-size: 28px 
+  line-height: 36px
   small 
-    font-size: $h3-size 
+    font-size: 20px 
 
 h2 
-  font-size: $h2-size
-  line-height: $base-line-height * 2
+  font-size: 24px
+  line-height: 36px
   small 
-    font-size: $h3-size 
+    font-size: 20px 
 
 h3 
-  line-height: $base-line-height * 1.5
-  font-size: $h3-size 
+  font-size: 20px
+  line-height: 27px
   small 
-    font-size: $h4-size 
+    font-size: 18px 
   
 h4, h5, h6 
-  line-height: $base-line-height
+  line-height: 18px
 
 h4 
-  font-size: $h4-size 
+  font-size: 18px 
   small 
-    font-size: $h5-size 
+    font-size: 16px
   
 h5 
-  font-size: $h5-size 
+  font-size: 16px
 
 h6 
-  font-size: $h6-size 
-  color: $gray-light
+  font-size: 13px
+  color: #666
   text-transform: uppercase
 
 
@@ -67,7 +64,7 @@ h6
 // -----
 ul, ol 
   padding: 0
-  margin: 0 0 $base-line-height / 2 25px
+  margin: 0 0 9px 2 25px
 
 ul ul,
 ul ol,
@@ -82,7 +79,7 @@ ol
   list-style: decimal
 
 li 
-  line-height: $base-line-height
+  line-height: 18px
 
 ul.unstyled,
 ol.unstyled 
@@ -91,24 +88,24 @@ ol.unstyled
 
 // Description Lists
 dl 
-  margin-bottom: $base-line-height
+  margin-bottom: 18px
 
 dt,
 dd 
-  line-height: $base-line-height
+  line-height: 18px
 
 dt 
   font-weight: bold
 
 dd 
-  margin-left: $base-line-height / 2
+  margin-left: 9px
 
 // Horizontal rules
 hr 
-  margin: $base-line-height 0
+  margin: 18px 0
   border: 0
-  border-top: 1px solid $gray-lighter
-  border-bottom: 1px solid $white
+  border-top: 1px solid #aaa
+  border-bottom: 1px solid #fff
 
 
 // Emphasis
@@ -129,28 +126,17 @@ abbr
 // Blockquotes
 blockquote 
   padding: 0 0 0 15px
-  margin: 0 0 $base-line-height
-  border-left: 5px solid $gray-lighter
+  margin: 0 0 18px
+  border-left: 5px solid #666
   p 
     margin-bottom: 0
   
   small 
     display: block
-    line-height: $base-line-height
-    color: $gray-light
+    line-height: 18px
+    color: #666
     &:before 
       content: '\2014 \00A0'
-    
-  // Float right with text-align: right
-  &.pull-right 
-    float: right
-    padding-left: 0
-    padding-right: 15px
-    border-left: 0
-    border-right: 5px solid $gray-lighter
-    p,
-    small 
-      text-align: right
     
 // Quotes
 q:before,
@@ -162,8 +148,8 @@ blockquote:after
 // Addresses
 address 
   display: block
-  margin-bottom: $base-line-height
-  line-height: $base-line-height
+  margin-bottom: 18px
+  line-height: 18px
   font-style: normal
 
 // Misc
