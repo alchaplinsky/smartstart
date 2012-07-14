@@ -3,15 +3,15 @@ Sass OOCSS library
 
 Add this line to your application's Gemfile:
 
-    gem 'smartstart_rails'
-
+    gem 'smartstart'
+    
 And then execute:
 
     $ bundle
 
 Or install it yourself as:
 
-    $ gem install smartstart_rails
+    $ gem install smartstart
 
 ## Usage
 
