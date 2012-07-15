@@ -1,5 +1,6 @@
 # SmartstartRails
-Sass OOCSS library
+Sass OOCSS library.
+Gem that gives you css foundation to start your frontend work. It has reset.css, grids, utility classes and realy handy mixins included.
 
 Add this line to your application's Gemfile:
 
@@ -15,7 +16,7 @@ Or install it yourself as:
 
 ## Usage
 
-Use sass @import instead of sprockets manifest =require instruction:
+Use sass `@import` instead of sprockets manifest `=require` instruction:
 
     @import 'smartstart'
 
